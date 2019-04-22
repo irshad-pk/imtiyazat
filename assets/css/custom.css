@@ -1,0 +1,77 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'Al Jazeera-Latin 40';
+  src: url('../fonts/AlJazeera-Latin-40Regular.eot');
+  src: url('../fonts/AlJazeera-Latin-40Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlJazeera-Latin-40Regular.woff2') format('woff2'),
+  url('../fonts/AlJazeera-Latin-40Regular.woff') format('woff'),
+  url('../fonts/AlJazeera-Latin-40Regular.ttf') format('truetype'),
+  url('../fonts/AlJazeera-Latin-40Regular.svg#AlJazeera-Latin-40Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Al Jazeera-Latin 40", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.sidebar {
+  background-color: rgb(28, 40, 90)!important;
+  color: white;
+}
+.sidebar .float-left .fas {
+  padding: 8px 9px;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+}
+.sidebar .nav-link {
+  color: white;
+  border-bottom: 1px solid rgb(211,211,211);
+  padding: 8px 0px;
+}
+.sidebar .badge {
+  border-radius: 0;
+  font-weight: lighter!important;
+}
+
+
+.main-content {
+  background-image: linear-gradient(to right,black 0%, #020202 1%, transparent),url('image/helloquence-61189-unsplash.jpg');
+  color: white;
+}
+.main-content .header {
+  width: fit-content;
+  width: -webkit-fit-content;
+  background-color: rgb(219, 161, 36)!important;
+}
+.main-content .float-right .fas {
+  font-size: 50px;
+}
+.main-content .row a {
+  color: white;
+}
+
+#boxscroll {
+  height: 200px;
+  overflow: auto;
+  margin-right: 5px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(200,200,200);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}

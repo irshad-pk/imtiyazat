@@ -1,0 +1,17 @@
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .row .col-md-7 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 8px;
+  }
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .main-content .float-right .fas {
+    font-size: 32px;
+}
+.main-content .float-left p {
+  font-size: small;
+}
+}
