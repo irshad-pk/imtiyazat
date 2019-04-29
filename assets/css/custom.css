@@ -36,25 +36,59 @@ body {
 
 
 .main-content {
-  background-image: linear-gradient(to right,black 0%, #020202 1%, transparent),url('image/helloquence-61189-unsplash.jpg');
   color: white;
 }
-.main-content .header {
+.carousel-inner:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.5);
+}
+.main-content .main-title {
+  position: absolute;
+  left: 3%;
+  top: 15px;
+}
+.main-content .main-title .header {
   width: fit-content;
   width: -webkit-fit-content;
   background-color: rgb(219, 161, 36)!important;
 }
-.main-content .float-right .fas {
-  font-size: 50px;
-}
-.main-content .row a {
+.main-content a {
   color: white;
 }
+.main-content .carousel-caption {
+  position: absolute;
+  right: 3%;
+  bottom: 3px;
+  left: 3%;
+  z-index: 10;
+  color: #fff;
+  text-align: left;
+}
+.main-content .carousel-caption p {
+  margin: 0;
+}
+.main-content .carousel-control-next {
+  font-size: 80px;
+  right: -24px;
+}
+
+/* .main-content .carousel-control-next {
+width: 11%;
+}
+.main-content .carousel-control-next-icon {
+width: 70px;
+height: 85px;
+} */
 
 #boxscroll {
-  height: 200px;
+  height: 178px;
   overflow: auto;
-  margin-right: 5px;
 }
 /* width */
 ::-webkit-scrollbar {
